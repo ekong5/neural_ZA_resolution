@@ -18,6 +18,9 @@ visual_analysis.ipynb (TBD):
 * generates visualizations of comparisons
 
 Data:
-This project utilizes version 5.0 of the OntoNotes dataset released by the Linguistic Data Consortium
+This project utilizes version 5.0 of the [OntoNotes dataset](https://catalog.ldc.upenn.edu/LDC2013T19) released by the Linguistic Data Consortium
+
+Paper: 
+The paper for this project can be found here *Insert link to paper*
 
 
