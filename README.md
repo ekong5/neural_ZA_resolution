@@ -1,7 +1,7 @@
 # LING 490 Capstone: CT Realizations in Attention Patterns for Chinese Zero Anaphora Resolution
 
 This project aims to investigate 
-1) whether Chinese zero anaphora resolution according to several proposed instantiations of Centering Theory (Grosz et al.) is realized in multi-head attention networks
+1) whether Chinese zero anaphora resolution according to several proposed instantiations of [Centering Theory](https://aclanthology.org/J95-2003.pdf) (Grosz et al.) is realized in multi-head attention networks
 2) where this realization occurs in the network
 
 transitions.ipynb: 
