@@ -1,1 +1,23 @@
-# capstone
+# LING 490 Capstone: CT Realizations in Attention Patterns for Chinese Zero Anaphora Resolution
+
+This project aims to investigate 
+1) whether Chinese zero anaphora resolution according to several proposed instantiations of Centering Theory (Grosz et al.) is realized in multi-head attention networks
+2) where this realization occurs in the network
+
+transitions.ipynb: 
+* converts OntoNotes documents into usable components for retrieving indices of relevant tokens
+* compares attention patterns in selected heads/layers of given model to Cf rankings
+Implementation details can be found within the file.
+
+sentence_piece.ipynb:
+* trains a sentence piece tokenizer for whole-word segmentation of Chinese text on held-out portions of the OntoNotes datasets.
+
+visual_analysis.ipynb (TBD):
+* compares the alignment of CT instantiations to attention patterns. 
+* compares the performance of CT instantiations in resolving zero-anaphora
+* generates visualizations of comparisons
+
+Data:
+This project utilizes version 5.0 of the OntoNotes dataset released by the Linguistic Data Consortium
+
+
